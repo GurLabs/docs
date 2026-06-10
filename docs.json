@@ -127,5 +127,19 @@
       "github": "https://github.com/GurLabs",
       "discord": "https://discord.gurlabs.xyz"
     }
+  },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "robots": "index, follow",
+      "googlebot": "index, follow",
+      "canonical": "https://docs.gurlabs.xyz",
+      "og:site_name": "GurLabs",
+      "og:locale": "tr_TR",
+      "twitter:site": "@GurLabs"
+    }
+  },
+  "markdown": {
+    "schema": false
   }
 }
