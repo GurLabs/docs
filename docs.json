@@ -13,91 +13,139 @@
     "dark": "/logo/gurlabs-logo.png"
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Türkçe",
-        "groups": [
+        "language": "tr",
+        "products": [
           {
-            "group": "GurLabs",
-            "pages": [
-              "tr/index",
-              "tr/kurumsal/biz-kimiz",
-              "tr/kurumsal/ekibimiz",
-              "tr/kurumsal/referanslarimiz",
-              "tr/kurumsal/linklerimiz"
+            "product": "GurLabs",
+            "icon": "building",
+            "groups": [
+              {
+                "group": "Kurumsal",
+                "pages": [
+                  "tr/index",
+                  "tr/kurumsal/biz-kimiz",
+                  "tr/kurumsal/ekibimiz",
+                  "tr/kurumsal/referanslarimiz",
+                  "tr/kurumsal/linklerimiz"
+                ]
+              }
             ]
           },
           {
-            "group": "OynaTR Teması",
-            "pages": [
-              "tr/leaderos/oynatr/tanitim",
-              "tr/leaderos/oynatr/satin-alma",
-              "tr/leaderos/oynatr/yukleme",
-              "tr/leaderos/oynatr/ozellestirme",
-              "tr/leaderos/oynatr/kullanma",
-              "tr/leaderos/oynatr/iletisim"
+            "product": "OynaTR Teması",
+            "icon": "palette",
+            "groups": [
+              {
+                "group": "OynaTR Teması",
+                "pages": [
+                  "tr/leaderos/oynatr/tanitim",
+                  "tr/leaderos/oynatr/satin-alma",
+                  "tr/leaderos/oynatr/yukleme",
+                  "tr/leaderos/oynatr/ozellestirme",
+                  "tr/leaderos/oynatr/kullanma",
+                  "tr/leaderos/oynatr/iletisim"
+                ]
+              }
             ]
           },
           {
-            "group": "Arena Teması",
-            "pages": [
-              "tr/leaderos/arena/tanitim",
-              "tr/leaderos/arena/satin-alma",
-              "tr/leaderos/arena/yukleme",
-              "tr/leaderos/arena/ozellestirme",
-              "tr/leaderos/arena/kullanma",
-              "tr/leaderos/arena/iletisim"
+            "product": "Arena Teması",
+            "icon": "gamepad",
+            "groups": [
+              {
+                "group": "Arena Teması",
+                "pages": [
+                  "tr/leaderos/arena/tanitim",
+                  "tr/leaderos/arena/satin-alma",
+                  "tr/leaderos/arena/yukleme",
+                  "tr/leaderos/arena/ozellestirme",
+                  "tr/leaderos/arena/kullanma",
+                  "tr/leaderos/arena/iletisim"
+                ]
+              }
             ]
           },
           {
-            "group": "Özel Web Projeleri",
-            "pages": [
-              "tr/ozel-projeler/talep",
-              "tr/ozel-projeler/sureclerimiz"
+            "product": "Özel Projeler",
+            "icon": "code",
+            "groups": [
+              {
+                "group": "Web Projeleri",
+                "pages": [
+                  "tr/ozel-projeler/talep",
+                  "tr/ozel-projeler/sureclerimiz"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "English",
-        "groups": [
+        "language": "en",
+        "products": [
           {
-            "group": "GurLabs",
-            "pages": [
-              "en/index",
-              "en/corporate/about-us",
-              "en/corporate/our-team",
-              "en/corporate/references",
-              "en/corporate/links"
+            "product": "GurLabs",
+            "icon": "building",
+            "groups": [
+              {
+                "group": "Corporate",
+                "pages": [
+                  "en/index",
+                  "en/corporate/about-us",
+                  "en/corporate/our-team",
+                  "en/corporate/references",
+                  "en/corporate/links"
+                ]
+              }
             ]
           },
           {
-            "group": "OynaTR Theme",
-            "pages": [
-              "en/leaderos/oynatr/introduction",
-              "en/leaderos/oynatr/purchasing",
-              "en/leaderos/oynatr/installation",
-              "en/leaderos/oynatr/customization",
-              "en/leaderos/oynatr/usage",
-              "en/leaderos/oynatr/contact"
+            "product": "OynaTR Theme",
+            "icon": "palette",
+            "groups": [
+              {
+                "group": "OynaTR Theme",
+                "pages": [
+                  "en/leaderos/oynatr/introduction",
+                  "en/leaderos/oynatr/purchasing",
+                  "en/leaderos/oynatr/installation",
+                  "en/leaderos/oynatr/customization",
+                  "en/leaderos/oynatr/usage",
+                  "en/leaderos/oynatr/contact"
+                ]
+              }
             ]
           },
           {
-            "group": "Arena Theme",
-            "pages": [
-              "en/leaderos/arena/introduction",
-              "en/leaderos/arena/purchasing",
-              "en/leaderos/arena/installation",
-              "en/leaderos/arena/customization",
-              "en/leaderos/arena/usage",
-              "en/leaderos/arena/contact"
+            "product": "Arena Theme",
+            "icon": "gamepad",
+            "groups": [
+              {
+                "group": "Arena Theme",
+                "pages": [
+                  "en/leaderos/arena/introduction",
+                  "en/leaderos/arena/purchasing",
+                  "en/leaderos/arena/installation",
+                  "en/leaderos/arena/customization",
+                  "en/leaderos/arena/usage",
+                  "en/leaderos/arena/contact"
+                ]
+              }
             ]
           },
           {
-            "group": "Custom Web Projects",
-            "pages": [
-              "en/custom-projects/request",
-              "en/custom-projects/process"
+            "product": "Custom Projects",
+            "icon": "code",
+            "groups": [
+              {
+                "group": "Web Projects",
+                "pages": [
+                  "en/custom-projects/request",
+                  "en/custom-projects/process"
+                ]
+              }
             ]
           }
         ]
