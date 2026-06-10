@@ -1,122 +1,131 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "GurLabs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
+  "logo": {
+    "light": "/logo/gurlabs-logo.png",
+    "dark": "/logo/gurlabs-logo.png"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Türkçe",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "GurLabs",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "tr/index",
+              "tr/kurumsal/biz-kimiz",
+              "tr/kurumsal/ekibimiz",
+              "tr/kurumsal/referanslarimiz",
+              "tr/kurumsal/linklerimiz"
             ]
           },
           {
-            "group": "Customization",
+            "group": "OynaTR Teması",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "tr/leaderos/oynatr/tanitim",
+              "tr/leaderos/oynatr/satin-alma",
+              "tr/leaderos/oynatr/yukleme",
+              "tr/leaderos/oynatr/ozellestirme",
+              "tr/leaderos/oynatr/kullanma",
+              "tr/leaderos/oynatr/iletisim"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Arena Teması",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "tr/leaderos/arena/tanitim",
+              "tr/leaderos/arena/satin-alma",
+              "tr/leaderos/arena/yukleme",
+              "tr/leaderos/arena/ozellestirme",
+              "tr/leaderos/arena/kullanma",
+              "tr/leaderos/arena/iletisim"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Özel Web Projeleri",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "tr/ozel-projeler/talep",
+              "tr/ozel-projeler/sureclerimiz"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "English",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "GurLabs",
             "pages": [
-              "api-reference/introduction"
+              "en/index",
+              "en/corporate/about-us",
+              "en/corporate/our-team",
+              "en/corporate/references",
+              "en/corporate/links"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "OynaTR Theme",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "en/leaderos/oynatr/introduction",
+              "en/leaderos/oynatr/purchasing",
+              "en/leaderos/oynatr/installation",
+              "en/leaderos/oynatr/customization",
+              "en/leaderos/oynatr/usage",
+              "en/leaderos/oynatr/contact"
+            ]
+          },
+          {
+            "group": "Arena Theme",
+            "pages": [
+              "en/leaderos/arena/introduction",
+              "en/leaderos/arena/purchasing",
+              "en/leaderos/arena/installation",
+              "en/leaderos/arena/customization",
+              "en/leaderos/arena/usage",
+              "en/leaderos/arena/contact"
+            ]
+          },
+          {
+            "group": "Custom Web Projects",
+            "pages": [
+              "en/custom-projects/request",
+              "en/custom-projects/process"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
+        "label": "GurLabs Website",
+        "href": "https://gurlabs.xyz"
+      },
+      {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gurlabs.xyz"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Theme Store",
+      "href": "https://shop.gurlabs.xyz"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/GurLabs",
+      "github": "https://github.com/GurLabs",
+      "discord": "https://discord.gurlabs.xyz"
     }
   }
 }
